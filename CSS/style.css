@@ -1,0 +1,64 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: arial;
+}
+
+:root {
+  /* border-radius variable */
+  --border-radius-s: 8px;
+  --border-radius-m: 12px;
+  --border-radius-l: 25px;
+
+  /* color variable */
+  --primary-color: blue;
+
+  /* font-size variable */
+  --font-size-xs: 10px;
+  --font-size-s: 15px;
+  --font-size-m: 34px;
+  --font-size-l: 44px;
+
+  /* font-weight variable */
+  --font-weight-semibold: 500;
+  --font-weight-bold: 900;
+}
+h1 {
+  text-align: center;
+  font-size: var(--font-size-l);
+  margin-top: 60px;
+}
+#instruction {
+  margin-top: 25px;
+  display: flex;
+  justify-self: center;
+  border-radius: var(--border-radius-m);
+  padding: 5px 74px;
+  font-size: var(--font-size-s);
+  width: 200px;
+}
+#submit-button {
+  margin-top: 25px;
+  display: flex;
+  justify-self: center;
+  border-radius: var(--border-radius-m);
+  padding: 5px 34px;
+}
+footer {
+  margin-top: 25px;
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.image-hero {
+  display: flex;
+  justify-self: center;
+  margin-bottom: 55px;
+  transition: all 400ms ease-in-out;
+}
+
+.image-hero:hover {
+  transform: scale(1.1, 1.07);
+}
